@@ -4,10 +4,11 @@ using namespace std;
 
 int main() 
 {
+	setlocale(LC_ALL, "Russian");
 	int n;
 	cin >> n;
 	if (n < 2) {
-		cout << "Write N > 2";
+		cout << "Введите число большее 2";
 		cin >> n;
 	}
 	for (int i = 1; i <= n; i++) 
