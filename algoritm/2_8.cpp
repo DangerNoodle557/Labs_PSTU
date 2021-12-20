@@ -7,7 +7,8 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	int n;
 	cin >> n;
-	if (n < 2) {
+	if (n < 2) 
+	{
 		cout << "Введите число большее 2";
 		cin >> n;
 	}
