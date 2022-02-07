@@ -12,7 +12,7 @@ complex<double> sum(complex<double> a,complex<double> b) //сложение ко
   return a+b;
 }
 
-int main
+int main ()
 {
   int c = 65, d = 44;
   complex<double> e (1.0, 2.0 );
